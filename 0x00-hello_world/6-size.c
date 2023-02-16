@@ -1,6 +1,6 @@
 #include <stdio>
 /**
- * main - A program that prints the size of various computer types
+ * main - Entry
  *return: always 0
  */
 int main(void)
