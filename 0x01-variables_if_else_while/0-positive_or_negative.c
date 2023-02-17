@@ -1,11 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+/* more headers goes there */
 
+/*betty style doc for function main goes there*/
 /**
- * main - determines if a number is positive, negative or zero.
+ * main - Entry point
  *
- * return: 0 on success, non-zero value on error
+ * return: always 0 (success)
 */
 int main(void)
 {
