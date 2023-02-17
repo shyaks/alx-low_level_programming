@@ -1,21 +1,19 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
-/* more headers goes there */
 
-/*betty style doc for function main goes there*/
 /**
- * main - Entry point
- *
- * Return: Always 0 (success)
-*/
+ * main - prints if the number is positive, negative or 0
+ * Return: always 0
+ */
 
 int main(void)
 {
 	int n;
 
 	srand(time(0));
-	n = randrand() - RAND_MAX / 2;
+	n = rand() - RAND_MAX / 2;
+
 	if (n > 0)
 	{
 		printf("%d is positive\n", n);
