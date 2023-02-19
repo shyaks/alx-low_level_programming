@@ -3,7 +3,8 @@
 #include <stdio.h>
 
 /**
- * main - Print a text  according to  number
+ * main - Print a last digit of a randomly generated number
+ * and whether it is greater than 5, less than 6, or 0.
  * Return: always (success)
  *
  */
