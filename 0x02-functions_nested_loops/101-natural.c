@@ -1,26 +1,24 @@
+
+
 #include <stdio.h>
+
 /**
- * main - main function
+ * main - Lists all the natural numbers below 1024 (excluded)
+ *        that are multiples of 3 or 5.
  *
- * Return: nothing
+ * Return: Always 0.
  */
 int main(void)
 {
-	int counter = 0;
-	long int a = 1;
-	long int b = a;
-	long int c = a + b;
+	int i, sum = 0;
 
-	while (c < 4000000)
+	for (i = 0; i < 1024; i++)
 	{
-		if (c % 2 == 0)
-		{
-			counter += c;
-		}
-		a = b;
-		b = c;
-		c = a + b;
+		if ((i % 3) == 0 || (i % 5) == 0)
+			sum += i;
 	}
-	printf("%d\n", counter);
+
+	printf("%d\n", sum);
+
 	return (0);
 }
